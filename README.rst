@@ -14,7 +14,7 @@ Apart from instaloader, the rest of this code was largely written by Chat GPT
 Written in python
 
 Dependencies:
-* import instaloader
+*import instaloader
 * import csv
 * import pandas as pd
 * from tkinter import Tk, filedialog
