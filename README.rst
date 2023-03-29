@@ -14,14 +14,25 @@ Apart from instaloader, the rest of this code was largely written by Chat GPT
 Written in python
 
 Dependencies:
+
 import instaloader
+
 import csv
+
 import pandas as pd
+
 from tkinter import Tk, filedialog
+
 from getch import getch
+
 from lxml import etree
+
 from argparse import ArgumentParser
+
 from glob import glob
+
 from os.path import expanduser
+
 from platform import system
+
 from sqlite3 import OperationalError, connect
