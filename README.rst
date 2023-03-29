@@ -1,7 +1,7 @@
 A python script based on instaloader by https://github.com/aandergr
 With thanks
 
-# insta-to-opml
+# insta-to-opml/n
 Instagram in RSS!
 
 Overview
