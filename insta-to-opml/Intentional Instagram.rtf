@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Intentional Instagram\
+\
+What this does\
+- gives you a different way to interact with instagram that gives you more control over the content you see, and how you see it\
+- no ads, no sponsored posts\
+- no reels, no stories\
+- no videos, but you can click through\
+- posts in time order\
+- allows you to sort the accounts you follow into groups\
+\
+How it does it\
+- downloads a list of all the accounts you follow from your instagram\
+- allows you to sort these into groups\
+- converts these files into a list of RSS feeds for use in an reader that can handle instagram\
+- in this example I will explain using Feedbro\
+\
+Current Requirement\
+- osx computer\
+- android phone\
+\
+Use\
+- close all open instagram apps on phone, close all instagram windows on computer\
+- download Firefox on computer\
+- login to instagram on firefox\
+- close Firefox\
+- download the app on your computer from here: https://github.com/felixhj/insta-to-opml/releases/download/a/intentional_instagram.zip\
+- unzip the file\
+- run the app\
+	- it will first install dependencies\
+	- it will then ask you to select a Firefox profile, these are not named so you might have to use trial and error, you need to select a folder that includes \'91default-release\'92 in the name\
+	- it will then ask for your instagram username and password to retrieve the list of account\
+	- it will then ask for the number of groups you want to create\
+	- it will then ask you to name these groups\
+	- it will then ask you to sort each of these account into one of the groups, using the number keys\
+- once complete, in your home folder there will now be files ending in .opml with the names of the groups you specified\
+- use the following website to upload these files so you can easily download them to your phone: https://filebin.net/\
+- click the more button next to download files and select QR code\
+- use your phone to open this QR code and download the file\
+- download kiwi browser on your phone\
+- search for chrome web store on kiwi\
+- search for feedbro in the store and install it into kiwi\
+- open feedbro in kiwi browser by clicking the menu button at top right (three dots), scrolling right to the bottom and clicking on the orange icon\
+- switch to desktop view in kiwi (in the menu)\
+- click the setting button in feedbro (cog icon)\
+- click \'91Import Feed Subscriptions (as OPML)\'92\
+- navigate to where you downloaded your opml files\
+- these will now load as folders into feedbro\
+- click the large orange icon on the left to navigate back to the reader\
+- select your folder from the list on the left hand side\
+- click the top left icon (three horizontal lines) to hide the side bar\
+- done!\
+\
+}
